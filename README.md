@@ -10,8 +10,6 @@
 - [Business Recommendations](#BusinessRecommendations)
 ## Overview
 This project analyzes MTN Nigeria's customer churn data to identify churn patterns, customer segments at risk, and business opportunities. Built using Power BI, it focuses on understanding which customer groups are more likely to churn and why.
-![Screenshot (4)](https://github.com/user-attachments/assets/3d3b97ee-b68b-478d-ae09-cdbdc8ea44c3)
-
 ### 🗂️ Dataset
 - **Source:** Public MTN Customer Churn dataset(Kaggle)
 - **Columns include:** Customer age, gender,full name, tenure, churn status, subscription plan, reasons for churned, mtn devices, subscription plan,data usuage, etc.
