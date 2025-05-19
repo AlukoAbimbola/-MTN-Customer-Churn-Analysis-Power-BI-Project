@@ -3,15 +3,15 @@
 - [Overview](#Overview)
 - [Dataset](#Dataset)
 - [Objectives](#Objectives)
-- [Key Questions Answered](#KeyQuestionsAnswered)
+- [Key Business Questions](#KeyBusinessQuestions)
 - [Visualizations Used](#VisualizationsUsed)
 - [Key Observations](#KeyObservations)
 - [Tools & Skills Used](#Tools&SkillsUsed)
 - [Business Recommendations](#BusinessRecommendations)
 ## Overview
 This project analyzes MTN Nigeria's customer churn data to identify churn patterns, customer segments at risk, and business opportunities. Built using Power BI, it focuses on understanding which customer groups are more likely to churn and why.
+![Screenshot (4)](https://github.com/user-attachments/assets/3d3b97ee-b68b-478d-ae09-cdbdc8ea44c3)
 
-![Screenshot (4)](https://github.com/user-attachments/assets/9b899c68-00e6-48fa-b553-a26ed0488c46)
 ### 🗂️ Dataset
 - **Source:** Public MTN Customer Churn dataset(Kaggle)
 - **Columns include:** Customer age, gender,full name, tenure, churn status, subscription plan, reasons for churned, mtn devices, subscription plan,data usuage, etc.
@@ -20,18 +20,21 @@ This project analyzes MTN Nigeria's customer churn data to identify churn patter
 - Identify churned customers
 - Analyze churn by age, gender, tenure, and region
 - Visualize trends and risk areas
-### 📌 Key Questions Answered
-- What is the overall churn rate?
-- Which customer groups are most likely to churn?
-- How does churn vary by tenure or age group?
-- What insights can improve customer retention?
+### ❓ Key Business Questions
+- What is MTN's overall churn rate?
+- Which age groups or tenure ranges are more likely to churn?
+- How does churn vary by gender, state, or device type?
+- Are customers with lower engagement (data usage, revenue) more likely to leave?
 ### 📊 Visualizations Used
-- Churn Rate (KPI Card)
-- Churned rate by date and data usuage (line/Bar Chart)
-- Churned Customers by Tenure Group
-- Churn by Gender & Region
-- Donut chart for churned age group
-- Slicer filters for interactivity
+-  **KPI Cards**: Churn count, churn rate, total customers, total & average revenue
+-  **Churn Rate by State**
+-  **Revenue by Churn Status**
+-  **Data Usage by Churn Status**
+-  **Churn Trends over Time**
+-  **Churn Rate by Gender**
+-  **Churn by Device Type**
+-  **Churned Customers by Tenure Group**
+-  **Churned Customers by Age Group**
  ### 🔍 Key Observations 
 - Churn Rate is 29%, which is high and signals a retention issue.
 - Churn is highest in younger customers (16–30) at 40%.
@@ -65,6 +68,13 @@ This project analyzes MTN Nigeria's customer churn data to identify churn patter
 - Churned customers use less data → identify low-data users at risk and engage them with personalized data offers.
 7. Re-engage Former Customers:
 - Launch a “Win-Back” campaign for churned customers with attractive return incentives.
+ 
+  ### Author
+**Aluko Abimbola.M** – Data Analyst  
+📍 Passionate about helping businesses make better decisions using data  
+🔗 Connect with me on [LinkedIn](linkedin.com/in/memnataluko)
+  ### 📌 Notes
+This project was created for practice and portfolio purposes. Dataset is fictional or anonymized and used for learning only.
 
 
 
